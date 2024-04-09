@@ -6,7 +6,7 @@ My solutions to projects, challenges, and milestones from the [100 Days of Swift
 ### 👀 Screenshots Included
 Project directories also include screenshots of my completed work.
 
-![Project 1: WeSplit](01-Project01-WeSplit/Screenshots/01-Project01-small01.png) ![Challenge Day: Unit Converter](02-ChallengeDay-UnitConverter/Screenshots/02-ChallengeDay-small01.png)
+![Project 1: WeSplit](01-Project01-WeSplit/Screenshots/01-Project01-small01.png) ![Challenge Day: Unit Converter](02-ChallengeDay-UnitConverter/Screenshots/02-ChallengeDay-small01.png) ![Project 2: Guess the Flag](03-Project02-GuessTheFlag/Screenshots/03-Project02-small01.png)
 
 ### 🚧 Course Progress
 | | |
@@ -21,8 +21,8 @@ Milestone Projects | ![](https://geps.dev/progress/0)
 
 ### Starting SwiftUI
 - [x] [Project 1: WeSplit](01-Project01-WeSplit) [Days 16-18]
-- [x] [Challenge Day](02-ChallengeDay-UnitConverter) [Day 19]
-- [ ] Project 2: Guess the Flag [Days 20-22]
+- [x] [Challenge Day: Unit Converter](02-ChallengeDay-UnitConverter) [Day 19]
+- [x] [Project 2: Guess the Flag](03-Project02-GuessTheFlag) [Days 20-22]
 - [ ] Project 3: Views and Modifiers [Days 23-24]
 ### Consolidation II
 - [ ] Milestone: Projects 1-3 [Day 25]
