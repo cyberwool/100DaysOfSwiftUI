@@ -56,6 +56,8 @@ struct ContentView: View {
                 // Challenge 2
                 Section("Total check amount") {
                     Text(totalAmount, format: currencyFormat)
+                        // Project 3, Challenge 1
+                        .foregroundColor(tipPercentage == 0 ? .red : .black)
                 }
                 
                 // Challenge 1

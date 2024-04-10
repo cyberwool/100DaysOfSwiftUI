@@ -11,7 +11,7 @@ Project directories also include screenshots of my completed work.
 ### 🚧 Course Progress
 | | |
 | :--- | :---: |
-Projects w/ Challenges | ![](https://geps.dev/progress/1)
+Projects w/ Challenges | ![](https://geps.dev/progress/16)
 Challenge Day | ![](https://geps.dev/progress/100)
 Milestone Projects | ![](https://geps.dev/progress/0)
 | | |
@@ -23,7 +23,7 @@ Milestone Projects | ![](https://geps.dev/progress/0)
 - [x] [Project 1: WeSplit](01-Project01-WeSplit) [Days 16-18]
 - [x] [Challenge Day: Unit Converter](02-ChallengeDay-UnitConverter) [Day 19]
 - [x] [Project 2: Guess the Flag](03-Project02-GuessTheFlag) [Days 20-22]
-- [ ] Project 3: Views and Modifiers [Days 23-24]
+- [x] [Project 3: Views and Modifiers](04-Project03-ViewsAndModifiers) [Days 23-24]
 ### Consolidation II
 - [ ] Milestone: Projects 1-3 [Day 25]
 
