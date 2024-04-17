@@ -11,7 +11,7 @@ Project directories also include screenshots of my completed work.
 ### 🚧 Course Progress
 | | |
 | :--- | :---: |
-Projects w/ Challenges | ![](https://geps.dev/progress/16)
+Projects w/ Challenges | ![](https://geps.dev/progress/21)
 Challenge Day | ![](https://geps.dev/progress/100)
 Milestone Projects | ![](https://geps.dev/progress/16)
 | | |
@@ -28,7 +28,7 @@ Milestone Projects | ![](https://geps.dev/progress/16)
 - [x] [Milestone 1: Rock Paper Scissors](05-Milestone01-RockPaperScissors) [Day 25]
 
 ### Expanding Your Skills
-- [ ] Project 4: BetterRest [Days 26-28]
+- [x] [Project 4: BetterRest](06-Project04-BetterRest) [Days 26-28]
 - [ ] Project 5: Word Scramble [Days 29-31]
 - [ ] Project 6: Animations [Days 32-34]
 ### Consolidation III
