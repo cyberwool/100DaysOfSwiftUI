@@ -98,8 +98,6 @@ struct ContentView: View {
 //        .onAppear {
 //            animationAmount = 2
 //        }
-        // implicit animation on all properties of view it changes
-        // animation becomes a function of view state
     }
 }
 
