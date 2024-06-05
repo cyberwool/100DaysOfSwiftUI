@@ -31,6 +31,12 @@ struct ContentView: View {
     // Challenge 3
     @State private var roundsCompleted = 0
     
+    // Project 6 Challenges
+    @State private var tappedFlag = 0
+    @State private var rotationAmount = 0.0
+    @State private var opacityAmount = 1.0
+    @State private var scaleAmount = 1.0
+    
     var body: some View {
         ZStack {
             RadialGradient(stops: [
@@ -59,10 +65,19 @@ struct ContentView: View {
                     ForEach(0..<3) { number in
                         Button {
                             flagTapped(number)
+                            withAnimation {
+                                rotationAmount += 360
+                                opacityAmount = 0.25
+                                scaleAmount = 0.75
+                            }
                         } label: {
                             // Project 3, Challenge 2
                             FlagImage(country: countries[number])
                         }
+                        // Project 6 Challenges
+                        .rotation3DEffect(.degrees((tappedFlag == number ? rotationAmount : 0)), axis: /*@START_MENU_TOKEN@*/(x: 0.0, y: 1.0, z: 0.0)/*@END_MENU_TOKEN@*/)
+                        .opacity(tappedFlag != number ? opacityAmount : 1.0)
+                        .scaleEffect(tappedFlag != number ? scaleAmount : 1.0)
                     }
                 }
                 .frame(maxWidth: .infinity)
@@ -97,6 +112,8 @@ struct ContentView: View {
     }
     
     func flagTapped(_ number: Int) {
+        tappedFlag = number
+        
         if (number == correctAnswer) {
             scoreTitle = "Correct!"
             // Challenge 1
@@ -121,6 +138,12 @@ struct ContentView: View {
         
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
+        
+        // Project 6 Challenges
+        withAnimation(.linear(duration: 0.25)) {
+            opacityAmount = 1.0
+            scaleAmount = 1.0
+        }
     }
     
     // Challenge 3
