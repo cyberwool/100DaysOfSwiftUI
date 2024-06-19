@@ -3,17 +3,17 @@
 
 My solutions to projects, challenges, and milestones from the [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui) course by [Paul Hudson](https://github.com/twostraws).  I'm here to keep myself accountable, document my progress, and share the journey.
 
-### 👀 Screenshots Included
+### 👀 Screenshots
 Project directories also include screenshots of my completed work.
 
-![Challenge Day: Unit Converter](02-ChallengeDay-UnitConverter/Screenshots/02-ChallengeDay-small01.png) ![Milestone 1: Rock Paper Scissors](05-Milestone01-RockPaperScissors/Screenshots/05-Milestone01-small01.png) ![Project 2: Guess the Flag](03-Project02-GuessTheFlag/Screenshots/03-Project02-small01.png)
+[![Milestone 1: Rock Paper Scissors](05-Milestone01-RockPaperScissors/Screenshots/05-Milestone01-small01.png)](05-Milestone01-RockPaperScissors) [![Milestone 2: Unicorn Multiplication](09-Milestone02-UnicornMultiplication/Screenshots/09-Milestone02-small01.png)](09-Milestone02-UnicornMultiplication) [![Milestone 2: Unicorn Multiplication](09-Milestone02-UnicornMultiplication/Screenshots/09-Milestone02-small02.png)](09-Milestone02-UnicornMultiplication)
 
 ### 🚧 Course Progress
 | | |
 | :--- | :---: |
 Projects w/ Challenges | ![](https://geps.dev/progress/31)
 Challenge Day | ![](https://geps.dev/progress/100)
-Milestone Projects | ![](https://geps.dev/progress/16)
+Milestone Projects | ![](https://geps.dev/progress/33)
 | | |
 
 
@@ -32,7 +32,7 @@ Milestone Projects | ![](https://geps.dev/progress/16)
 - [x] [Project 5: Word Scramble](07-Project05-WordScramble) [Days 29-31]
 - [x] [Project 6: Animations](08-Project06-Animations) [Days 32-34]
 ### Consolidation III
-- [ ] Milestone 2: Projects 4-6 [Day 35]
+- [x] [Milestone 2: Unicorn Multiplication](09-Milestone02-UnicornMultiplication) [Day 35]
 
 ### Scaling Up to Bigger Apps
 - [ ] Project 7: iExpense [Days 36-38]
